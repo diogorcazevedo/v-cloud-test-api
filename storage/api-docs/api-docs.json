@@ -9,10 +9,7 @@
     },
     "servers": [
         {
-            "url": "https://administracaodosistema.com.br/sv/api"
-        },
-        {
-            "url": "http://127.0.0.1:8000/api/"
+            "url": "https://v-cloud-test-api-9b4ee93da081.herokuapp.com/api"
         }
     ],
     "paths": {
@@ -1667,6 +1664,24 @@
                         "bearerAuth": []
                     }
                 ]
+            }
+        },
+        "/test": {
+            "get": {
+                "tags": [
+                    "test"
+                ],
+                "summary": "get test",
+                "description": "get test",
+                "operationId": "showTest",
+                "responses": {
+                    "200": {
+                        "description": "descrition list"
+                    },
+                    "default": {
+                        "description": "An error has occurred."
+                    }
+                }
             }
         }
     },
