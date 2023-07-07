@@ -22,7 +22,7 @@ class TestController extends Controller
      *      )
      * )
      */
-    public function show()
+    public function index()
     {
 
         return response()->json([
