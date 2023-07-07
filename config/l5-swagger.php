@@ -294,7 +294,7 @@ return [
          * Constants which can be used in annotations
          */
         'constants' => [
-            'L5_SWAGGER_CONST_HOST' => env('L5_SWAGGER_CONST_HOST', 'https://administracaodosistema.com.br/sv/api/'),
+            'L5_SWAGGER_CONST_HOST' => env('L5_SWAGGER_CONST_HOST', 'https://v-cloud-test-api-9b4ee93da081.herokuapp.com/api/'),
         ],
     ],
 ];

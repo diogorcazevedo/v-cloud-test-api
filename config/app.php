@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://administracaodosistema.com.br/sv'),
+    'url' => env('APP_URL', 'https://v-cloud-test-api-9b4ee93da081.herokuapp.com'),
 
     'asset_url' => env('ASSET_URL'),
 
