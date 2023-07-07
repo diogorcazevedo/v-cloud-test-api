@@ -6,6 +6,7 @@ use App\Http\Controllers\DealController;
 use App\Http\Controllers\InviteController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -18,6 +19,11 @@ Route::middleware('auth:api')->prefix('auth')->group(function () {
     Route::post('me',       [AuthController::class, 'me']);
 
 });
+
+
+
+Route::get('test',                                [TestController::class, 'index']);
+
 
 
 Route::middleware('auth:api')->prefix('deal')->group(function () {
