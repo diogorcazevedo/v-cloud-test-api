@@ -15,7 +15,7 @@ use Illuminate\Routing\Controller as BaseController;
  *      )
  * )
  * @OA\Server(
- *     url="https://administracaodosistema.com.br/sv/api"
+ *     url="https://v-cloud-test-api-9b4ee93da081.herokuapp.com/api"
  * )
  * @OA\SecurityScheme(
  *    securityScheme="bearerAuth",
